@@ -195,7 +195,7 @@ p({children}) {
 return <div className="mt-2">{children}</div>
 },
 
-code({inline, children}) {
+code({ children } : any) {
 
 if (inline) {
 return (
